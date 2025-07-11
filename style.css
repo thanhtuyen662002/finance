@@ -2,13 +2,13 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f0f4ff;
+  background: #ffffff;
   color: #111;
 }
 
 .header {
-  background: #1e2a78;
-  color: white;
+  background: #000;
+  color: #d4af37;
   text-align: center;
   padding: 20px 10px;
   display: flex;
@@ -33,8 +33,9 @@ body {
 }
 
 .support {
-  background: white;
+  background: #fff;
   padding: 30px 20px;
+  padding-bottom: 0;
   text-align: center;
 }
 
@@ -47,9 +48,8 @@ body {
   justify-items: start;
 }
 
-.features li {
-  margin: 8px 0;
-  font-weight: bold;
+.features li::marker {
+  color: #d4af37;
 }
 
 .stats {
@@ -60,6 +60,7 @@ body {
 
 .stats strong {
   font-size: 24px;
+  color: #000;
 }
 
 .stats div {
@@ -68,7 +69,7 @@ body {
 }
 
 .loan-options {
-  background: #eaf0ff;
+  background: #f5f5f5;
   padding: 30px 20px;
   text-align: center;
 }
@@ -88,21 +89,22 @@ body {
 }
 
 .partner-card {
-  background: white;
+  background: #fff;
   padding: 20px;
   border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   text-align: left;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .partner-card img {
   max-height: 100px;
   width: 150px;
-  margin-right: 3rem;
+  margin-right: 1rem;
 }
 
 .partner-card ul {
@@ -117,19 +119,20 @@ body {
 }
 
 .partner-card .btn {
-  background: red;
-  color: white;
+  background: #d4af37;
+  color: #000;
   padding: 10px 15px;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 10px;
   font-weight: bold;
+  border: none;
 }
 
 .footer {
   text-align: center;
   padding: 15px;
-  background: #1e2a78;
-  color: white;
+  background: #000;
+  color: #d4af37;
 }
 
 /* Modal popup */
@@ -141,7 +144,7 @@ body {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -178,6 +181,7 @@ body {
   right: 15px;
   font-size: 24px;
   cursor: pointer;
+  color: #000;
 }
 
 .modal-nav {
@@ -186,14 +190,15 @@ body {
   margin-top: 15px;
 }
 
+/* Modal popup buttons */
 .modal-nav button,
 #startRegister {
   padding: 10px 15px;
   font-weight: bold;
   border: none;
-  border-radius: 5px;
-  background: #1e2a78;
-  color: #fff;
+  border-radius: 10px;
+  background: #d4af37;
+  color: #000;
   cursor: pointer;
 }
 
@@ -230,6 +235,7 @@ body {
   font-weight: bolder;
 }
 
+/* Navigation */
 .main-nav ul {
   list-style: none;
   padding: 0;
@@ -241,15 +247,16 @@ body {
 
 .main-nav a {
   text-decoration: none;
-  background-color: #007bff;
-  color: white;
+  background-color: #000;
+  color: #d4af37;
   padding: 10px 16px;
-  border-radius: 8px;
+  border-radius: 10px;
   transition: background-color 0.2s;
 }
 
 .main-nav a:hover {
-  background-color: #0056b3;
+  background-color: #d4af37;
+  color: #000;
 }
 
 @media (max-width: 700px) {

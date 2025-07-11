@@ -3,13 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Chứng Khoán</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHỨNG KHOÁN</title>
     <link rel="stylesheet" href="style.css">
+    <script src="stock-script.js" defer></script>
 </head>
 
 <body>
     <header class="header">
-        <h1>Chứng Khoán Online</h1>
+        <h1>CHỨNG KHOÁN</h1>
         <p>Tư vấn mở tài khoản, cập nhật thị trường mỗi ngày</p>
     </header>
 
@@ -19,21 +21,60 @@
             <li>✔️ Mở tài khoản chứng khoán miễn phí</li>
             <li>✔️ Đội ngũ chuyên gia hỗ trợ</li>
             <li>✔️ Giao diện đầu tư thông minh</li>
+            <li>✔️ Tạo giá trị gia tăng cho cá nhân và doanh nghiệp</li>
         </ul>
+        <div class="stats">
+            <div><strong>2.871</strong>
+                <p>Khách hàng đã đăng ký</p>
+            </div>
+            <div><strong>2.180</strong>
+                <p>Khách đã có lợi nhuận</p>
+            </div>
+            <div><strong>5p</strong>
+                <p>Thời gian đăng ký</p>
+            </div>
+            <div><strong>3</strong>
+                <p>Đối tác chứng khoán uy tín</p>
+            </div>
+        </div>
     </section>
 
     <nav class="main-nav">
         <ul>
-            <li><a href="index.html">💰 Vay tiền nhanh</a></li>
-            <li><a href="credit-card.html">💳 Mở thẻ tín dụng</a></li>
-            <li><a href="insurance.html">🛡️ Mua bảo hiểm</a></li>
-            <li><a href="stock.html">📈 Xem chứng khoán</a></li>
+            <li><a href="index.html">Vay tiền nhanh</a></li>
+            <li><a href="credit-card.html">Mở thẻ tín dụng</a></li>
+            <li><a href="insurance.html">Mua bảo hiểm</a></li>
+            <li><a href="stock.html">Xem chứng khoán</a></li>
         </ul>
     </nav>
 
+    <section class="loan-options">
+        <h2>THÔNG TIN CÁC BẢO HIỂM MÀ BẠN CÓ THỂ ĐĂNG KÝ CHO BẢN THÂN, GIA ĐÌNH VÀ NGƯỜI THÂN</h2>
+        <p><strong>1 NGƯỜI CÓ THỂ ĐĂNG KÝ CÙNG LÚC NHIỀU BẢO HIỂM</strong></p>
+
+        <div class="partners" id="partners">
+            <!-- Nội dung đối tác sẽ được thêm bằng JS -->
+        </div>
+    </section>
+
     <footer class="footer">
-        <p>&copy; 2025 Tín dụng 247</p>
+        <p>&copy; 2025 VAY NHANH - UY TÍN - DỄ DÀNG</p>
     </footer>
+
+    <!-- Modal Hướng dẫn -->
+    <div id="guideModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="guide-step">
+                <!-- Nội dung hướng dẫn từng bước sẽ được chèn ở đây bằng JS -->
+            </div>
+            <div class="modal-nav">
+                <button id="prevStep">Quay lại</button>
+                <button id="nextStep">Tiếp theo</button>
+            </div>
+            <button id="startRegister" class="hidden">Bắt đầu đăng ký</button>
+        </div>
+    </div>
 </body>
 
 </html>
