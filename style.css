@@ -55,8 +55,8 @@ body {
   margin-right: 5px;
 }
 
-.features li::marker {
-  color: #d4af37;
+.features li {
+  text-align: start;
 }
 
 .stats {
