@@ -123,7 +123,7 @@ const partners = [
       "✔️ Tỷ lệ duyệt vay cao",
       "✔️ Gói vay từ 10 triệu – 100 triệu đồng",
     ],
-    link: "#",
+    link: "https://shorten.asia/BXWU6Y1c",
     guideSteps: [
       {
         img: "images/fecredit/Step1.png",
@@ -188,6 +188,28 @@ const partners = [
       {
         img: "images/tima/Step1.png",
         text: "Khách hàng điền đầy đủ thông tin sau đó ấn <strong>Nhận tiền ngay</strong>.",
+      },
+      {
+        img: "images/util/note.png",
+        text: "<strong>Lưu ý</strong> <p>1. Khách hàng là công dân Việt Nam trong độ tuổi 18 – 65 tuổi tính đến thời điểm tất toán khoản vay.</p><p>2. Đang sinh sống và làm việc thường xuyên tại khu vực: Hà Nội, Sài Gòn, Bình Dương, Đồng Nai, Hưng Yên, Bắc Ninh, Bắc Giang, Vĩnh Phúc, Hải Dương, Thanh Hoá, Nghệ An.</p><p>3. Có bản chụp ảnh gốc CMND/thẻ căn cước/hộ chiếu và có bản chụp ảnh gốc sổ hộ khẩu.</p><p>4. Khách hàng có hoặc đang sử dụng xe ô tô theo giấy tờ của đăng ký/ cà vẹt xe ô tô và có đăng ký xe ô tô và giấy đăng kiểm.</p>",
+      },
+    ],
+  },
+  {
+    name: "Tima",
+    logo: "images/tima/logo.png",
+    benefits: [
+      "✔️ Vay tiền chỉ cần CCCD và giấy tờ xe (xe máy hoặc ô tô)",
+      "✔️ Tỷ lệ duyệt lên đến 95% (cứ đăng ký là được vay)",
+      "✔️ Kỳ hạn vay linh hoạt 6 tháng - 9 tháng - 12 tháng - 36 tháng",
+      "✔️ Nhận tiền ngay chỉ trong 2 giờ",
+      "✔️ Hỗ trợ vay nhanh từ 42TR - 100TR - 200TR - 500TR - 1TỶ - 2 TỶ",
+    ],
+    link: "https://shorten.asia/Vqhpwugw",
+    guideSteps: [
+      {
+        img: "images/tima/Step1.0.png",
+        text: "Khách hàng điền đầy đủ thông tin sau đó ấn <strong>Đăng ký vay</strong>.",
       },
       {
         img: "images/util/note.png",

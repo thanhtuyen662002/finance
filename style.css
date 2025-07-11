@@ -229,6 +229,29 @@ body {
 #guide-step span {
   font-weight: bolder;
 }
+
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 20px 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.main-nav a:hover {
+  background-color: #0056b3;
+}
+
 @media (max-width: 700px) {
   .partner-card {
     flex-direction: column;
@@ -266,5 +289,10 @@ body {
 
   .loan-options h2 {
     font-size: 18px;
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    align-items: center;
   }
 }
