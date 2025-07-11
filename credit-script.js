@@ -1,13 +1,13 @@
 const partners = [
-    {
+  {
     name: "EVOCARD",
     logo: "images/evocard/logo.png",
     benefits: [
-      "✔️ Không cần chứng minh thu nhập",
-      "✔️ Miễn lãi lên đến 45 ngày",
-      "✔️ Miễn phí thường niên năm đầu không điều kiện",
-      "✔️ Hoàn tiền đến 6 triệu/năm",
-      "✔️ Hạn mức 75 triệu",
+      "🌟 Không cần chứng minh thu nhập",
+      "🌟 Miễn lãi lên đến 45 ngày",
+      "🌟 Miễn phí thường niên năm đầu không điều kiện",
+      "🌟 Hoàn tiền đến 6 triệu/năm",
+      "🌟 Hạn mức 75 triệu",
     ],
     link: "https://shorten.asia/Uwu3bFTz",
     guideSteps: [
@@ -45,11 +45,11 @@ const partners = [
     name: "LioBank",
     logo: "images/liobank/logo.png",
     benefits: [
-      "✔️ Thẻ '2 trong 1' - Kết hợp tín dụng và ghi nợ",
-      "✔️ Phát hành nhanh – Không cần chứng minh thu nhập",
-      "✔️ Miễn phí và trả góp linh hoạt",
-      "✔️ Hoàn tiền lên tới 10%",
-      "✔️ Hạn mức lên đến 200 triệu",
+      "🌟 Thẻ '2 trong 1' - Kết hợp tín dụng và ghi nợ",
+      "🌟 Phát hành nhanh – Không cần chứng minh thu nhập",
+      "🌟 Miễn phí và trả góp linh hoạt",
+      "🌟 Hoàn tiền lên tới 10%",
+      "🌟 Hạn mức lên đến 200 triệu",
     ],
     link: "https://shorten.asia/1My4rcmQ",
     guideSteps: [
@@ -87,11 +87,11 @@ const partners = [
     name: "VIB",
     logo: "images/vib/logo.png",
     benefits: [
-      "✔️ Đăng ký online chỉ cần CCCD",
-      "✔️ Rút tiền mặt hạn mức lên tới 100%",
-      "✔️ Miễn phí thường niên năm đầu không điều kiện",
-      "✔️ Hoàn tiền đến 6%",
-      "✔️ Hạn mức lên tới 600 triệu",
+      "🌟 Đăng ký online chỉ cần CCCD",
+      "🌟 Rút tiền mặt hạn mức lên tới 100%",
+      "🌟 Miễn phí thường niên năm đầu không điều kiện",
+      "🌟 Hoàn tiền đến 6%",
+      "🌟 Hạn mức lên tới 600 triệu",
     ],
     link: "https://shorten.asia/Uwu3bFTz",
     guideSteps: [
@@ -117,11 +117,11 @@ const partners = [
     name: "TP Bank",
     logo: "images/tpbank/logo.png",
     benefits: [
-      "✔️ Mở thẻ dành cho điện thoại Android (miễn phí mở thẻ)",
-      "✔️ Hoàn 20% tổng giá trị giao dịch",
-      "✔️ Hoàn phí năm đầu khi chi tiêu đạt 1,000,000 VND trong 45 ngày mở mới",
-      "✔️ Mở thẻ chỉ trong 5 phút",
-      "✔️ Hạn mức từ 1 - 100 triệu",
+      "🌟 Mở thẻ dành cho điện thoại Android (miễn phí mở thẻ)",
+      "🌟 Hoàn 20% tổng giá trị giao dịch",
+      "🌟 Hoàn phí năm đầu khi chi tiêu đạt 1,000,000 VND trong 45 ngày mở mới",
+      "🌟 Mở thẻ chỉ trong 5 phút",
+      "🌟 Hạn mức từ 1 - 100 triệu",
     ],
     link: "https://shorten.asia/EaPSmyT7",
     guideSteps: [
@@ -179,11 +179,11 @@ const partners = [
     name: "TP Bank",
     logo: "images/tpbank/logo.png",
     benefits: [
-      "✔️ Mở thẻ dành cho điện thoại IOS (miễn phí mở thẻ)",
-      "✔️ Hoàn 20% tổng giá trị giao dịch",
-      "✔️ Hoàn phí năm đầu khi chi tiêu đạt 1,000,000 VND trong 45 ngày mở mới",
-      "✔️ Mở thẻ chỉ trong 5 phút",
-      "✔️ Hạn mức từ 1 - 100 triệu",
+      "🌟 Mở thẻ dành cho điện thoại IOS (miễn phí mở thẻ)",
+      "🌟 Hoàn 20% tổng giá trị giao dịch",
+      "🌟 Hoàn phí năm đầu khi chi tiêu đạt 1,000,000 VND trong 45 ngày mở mới",
+      "🌟 Mở thẻ chỉ trong 5 phút",
+      "🌟 Hạn mức từ 1 - 100 triệu",
     ],
     link: "https://shorten.asia/HjfpDvYZ",
     guideSteps: [
@@ -241,11 +241,11 @@ const partners = [
     name: "VP Bank SenID",
     logo: "images/vpbank/logo.png",
     benefits: [
-      "✔️ Phê duyệt tự động",
-      "✔️ Ưu đãi lên đến 50% toàn Việt Nam và nước ngoài",
-      "✔️ Duyệt hồ sơ trong 24h",
-      "✔️ Mở thẻ chỉ trong 10 phút",
-      "✔️ Hạn mức từ 10 - 70 triệu",
+      "🌟 Phê duyệt tự động",
+      "🌟 Ưu đãi lên đến 50% toàn Việt Nam và nước ngoài",
+      "🌟 Duyệt hồ sơ trong 24h",
+      "🌟 Mở thẻ chỉ trong 10 phút",
+      "🌟 Hạn mức từ 10 - 70 triệu",
     ],
     link: "https://shorten.asia/eFeDNzev",
     guideSteps: [
@@ -303,11 +303,11 @@ const partners = [
     name: "VP Bank 3T",
     logo: "images/vpbank/logo.png",
     benefits: [
-      "✔️ Phê duyệt tự động",
-      "✔️ Ưu đãi lên đến 50% toàn Việt Nam và nước ngoài",
-      "✔️ Duyệt hồ sơ trong 24h",
-      "✔️ Mở thẻ chỉ trong 10 phút",
-      "✔️ Hạn mức từ 20 - 500 triệu",
+      "🌟 Phê duyệt tự động",
+      "🌟 Ưu đãi lên đến 50% toàn Việt Nam và nước ngoài",
+      "🌟 Duyệt hồ sơ trong 24h",
+      "🌟 Mở thẻ chỉ trong 10 phút",
+      "🌟 Hạn mức từ 20 - 500 triệu",
     ],
     link: "https://shorten.asia/Fg34N4uy",
     guideSteps: [
@@ -420,3 +420,19 @@ startBtn.onclick = () => {
   window.open(currentPartner.link, "_blank");
   modal.classList.add("hidden");
 };
+
+modal.addEventListener("click", (e) => {
+  if (e.target === modal) {
+    modal.classList.add("hidden");
+  }
+});
+
+const menuToggle = document.querySelector('.menu-toggle');
+const navMenu = document.querySelector('.main-nav ul');
+
+menuToggle.addEventListener('click', () => {
+  navMenu.classList.toggle('show');
+});
+
+document.getElementById("nextStep").classList.add("fade-slide-up");
+document.getElementById("prevStep").classList.add("fade-slide-up");

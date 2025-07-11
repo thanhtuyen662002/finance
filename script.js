@@ -3,11 +3,11 @@ const partners = [
     name: "Tnex",
     logo: "images/tnex/tnex.png",
     benefits: [
-      "✔️ Vay tiền chỉ cần CCCD",
-      "✔️ Không chứng minh thu nhập, không thẩm định người thân",
-      "✔️ Lãi suất thấp nhất trên thị trường vay tín chấp",
-      "✔️ Nhận ngay khoản vay chỉ trong 15 phút",
-      "✔️ Mức giải ngân đa dạng từ 3 - 10 triệu, dành cho mọi đối tượng",
+      "🌟 Vay tiền chỉ cần CCCD",
+      "🌟 Không chứng minh thu nhập, không thẩm định người thân",
+      "🌟 Lãi suất thấp nhất trên thị trường vay tín chấp",
+      "🌟 Nhận ngay khoản vay chỉ trong 15 phút",
+      "🌟 Mức giải ngân đa dạng từ 3 - 10 triệu, dành cho mọi đối tượng",
     ],
     link: "https://shorten.asia/W2t1tsFY",
     guideSteps: [
@@ -49,11 +49,11 @@ const partners = [
     name: "Tnex Telesale",
     logo: "images/tnex/logo.png",
     benefits: [
-      "✔️ Vay tiền chỉ cần CCCD",
-      "✔️ Không chứng minh thu nhập, không thẩm định người thân",
-      "✔️ Thẻ ghi nợ cực chất được giao tận tay, không cần phải đến ngân hàng",
-      "✔️ Đảm bảo không có chi phí ẩn",
-      "✔️ Mức giải ngân đa dạng từ 5 - 20 triệu, dành cho mọi đối tượng",
+      "🌟 Vay tiền chỉ cần CCCD",
+      "🌟 Không chứng minh thu nhập, không thẩm định người thân",
+      "🌟 Thẻ ghi nợ cực chất được giao tận tay, không cần phải đến ngân hàng",
+      "🌟 Đảm bảo không có chi phí ẩn",
+      "🌟 Mức giải ngân đa dạng từ 5 - 20 triệu, dành cho mọi đối tượng",
     ],
     link: "https://shorten.asia/gXkkUphu",
     guideSteps: [
@@ -95,11 +95,11 @@ const partners = [
     name: "Lotte Finace",
     logo: "images/lotte/logo.webp",
     benefits: [
-      "✔️ Vay tiền chỉ cần CCCD",
-      "✔️ Ưu tiên cán bộ công chức, viên chức, dân văn phòng, công nhân",
-      "✔️ Thời hạn vay dài từ 6 - 60 tháng",
-      "✔️ Giải ngân nhanh, trong vòng 4h với các hồ sơ đạt yêu cầu",
-      "✔️ Hạn mức vay cao lên đến 500tr",
+      "🌟 Vay tiền chỉ cần CCCD",
+      "🌟 Ưu tiên cán bộ công chức, viên chức, dân văn phòng, công nhân",
+      "🌟 Thời hạn vay dài từ 6 - 60 tháng",
+      "🌟 Giải ngân nhanh, trong vòng 4h với các hồ sơ đạt yêu cầu",
+      "🌟 Hạn mức vay cao lên đến 500tr",
     ],
     link: "https://shorten.asia/eCyvcfS1",
     guideSteps: [
@@ -117,11 +117,11 @@ const partners = [
     name: "FECREDIT",
     logo: "images/fecredit/logo.png",
     benefits: [
-      "✔️ Vay tiền chỉ cần CCCD",
-      "✔️ Thủ tục đơn giản, không thế chấp",
-      "✔️ Thời hạn vay dài từ 6 - 60 tháng",
-      "✔️ Tỷ lệ duyệt vay cao",
-      "✔️ Gói vay từ 10 triệu – 100 triệu đồng",
+      "🌟 Vay tiền chỉ cần CCCD",
+      "🌟 Thủ tục đơn giản, không thế chấp",
+      "🌟 Thời hạn vay dài từ 6 - 60 tháng",
+      "🌟 Tỷ lệ duyệt vay cao",
+      "🌟 Gói vay từ 10 triệu – 100 triệu đồng",
     ],
     link: "https://shorten.asia/BXWU6Y1c",
     guideSteps: [
@@ -139,11 +139,11 @@ const partners = [
     name: "HOMECREDIT",
     logo: "images/homecredit/logo.png",
     benefits: [
-      "✔️ Vay tiền chỉ cần CCCD",
-      "✔️ Không chứng minh thu nhập, không thẩm định người thân",
-      "✔️ Thời hạn vay dài từ 6 - 57 tháng",
-      "✔️ Quy trình xét duyệt hồ sơ và giải ngân nhanh nhất chỉ trong 10 phút",
-      "✔️ Hỗ trợ vay từ 5 - 200 triệu",
+      "🌟 Vay tiền chỉ cần CCCD",
+      "🌟 Không chứng minh thu nhập, không thẩm định người thân",
+      "🌟 Thời hạn vay dài từ 6 - 57 tháng",
+      "🌟 Quy trình xét duyệt hồ sơ và giải ngân nhanh nhất chỉ trong 10 phút",
+      "🌟 Hỗ trợ vay từ 5 - 200 triệu",
     ],
     link: "https://shorten.asia/aerSAjcw",
     guideSteps: [
@@ -177,11 +177,11 @@ const partners = [
     name: "Tima",
     logo: "images/tima/logo.png",
     benefits: [
-      "✔️ Vay tiền chỉ cần CCCD và giấy tờ xe (xe máy hoặc ô tô)",
-      "✔️ Cam kết không giữ tài sản đảm bảo",
-      "✔️ Thời hạn vay từ 9 - 12 tháng",
-      "✔️ Quy trình online 99%, hỗ trợ tận nơi",
-      "✔️ Hạn mức vay cao từ 3 - 500tr",
+      "🌟 Vay tiền chỉ cần CCCD và giấy tờ xe (xe máy hoặc ô tô)",
+      "🌟 Cam kết không giữ tài sản đảm bảo",
+      "🌟 Thời hạn vay từ 9 - 12 tháng",
+      "🌟 Quy trình online 99%, hỗ trợ tận nơi",
+      "🌟 Hạn mức vay cao từ 3 - 500tr",
     ],
     link: "https://shorten.asia/Hjask8Xk",
     guideSteps: [
@@ -199,11 +199,11 @@ const partners = [
     name: "Tima",
     logo: "images/tima/logo.png",
     benefits: [
-      "✔️ Vay tiền chỉ cần CCCD và giấy tờ xe (xe máy hoặc ô tô)",
-      "✔️ Tỷ lệ duyệt lên đến 95% (cứ đăng ký là được vay)",
-      "✔️ Kỳ hạn vay linh hoạt 6 tháng - 9 tháng - 12 tháng - 36 tháng",
-      "✔️ Nhận tiền ngay chỉ trong 2 giờ",
-      "✔️ Hỗ trợ vay nhanh từ 42TR - 100TR - 200TR - 500TR - 1TỶ - 2 TỶ",
+      "🌟 Vay tiền chỉ cần CCCD và giấy tờ xe (xe máy hoặc ô tô)",
+      "🌟 Tỷ lệ duyệt lên đến 95% (cứ đăng ký là được vay)",
+      "🌟 Kỳ hạn vay linh hoạt 6 tháng - 9 tháng - 12 tháng - 36 tháng",
+      "🌟 Nhận tiền ngay chỉ trong 2 giờ",
+      "🌟 Hỗ trợ vay nhanh từ 42TR - 100TR - 200TR - 500TR - 1TỶ - 2 TỶ",
     ],
     link: "https://shorten.asia/Vqhpwugw",
     guideSteps: [
@@ -296,3 +296,19 @@ startBtn.onclick = () => {
   window.open(currentPartner.link, "_blank");
   modal.classList.add("hidden");
 };
+
+modal.addEventListener("click", (e) => {
+  if (e.target === modal) {
+    modal.classList.add("hidden");
+  }
+});
+
+const menuToggle = document.querySelector('.menu-toggle');
+const navMenu = document.querySelector('.main-nav ul');
+
+menuToggle.addEventListener('click', () => {
+  navMenu.classList.toggle('show');
+});
+
+document.getElementById("nextStep").classList.add("fade-slide-up");
+document.getElementById("prevStep").classList.add("fade-slide-up");

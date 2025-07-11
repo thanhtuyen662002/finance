@@ -3,10 +3,10 @@ const partners = [
     name: "CHỨNG KHOÁN VPS",
     logo: "images/vps/logo.webp",
     benefits: [
-      "✔️ Cung cấp các sản phẩm đa dạng, chất lượng cao",
-      "✔️ Đa dạng dịch vụ đầu tư",
-      "✔️ Có đội ngũ tư vấn tài chính và phân tích",
-      "✔️ Dễ dàng mở tài khoản",
+      "🌟 Cung cấp các sản phẩm đa dạng, chất lượng cao",
+      "🌟 Đa dạng dịch vụ đầu tư",
+      "🌟 Có đội ngũ tư vấn tài chính và phân tích",
+      "🌟 Dễ dàng mở tài khoản",
     ],
     link: "https://shorten.asia/k5kNKuVW",
     guideSteps: [
@@ -20,10 +20,10 @@ const partners = [
     name: "XWEALTH DATX",
     logo: "images/datx/logo.jpeg",
     benefits: [
-      "✔️ Đón đầu kỷ nguyên đầu tư với AI, Big Data, Machine learning",
-      "✔️ Công cụ đầu tư hữu ích, hỗ trợ nhà đầu tư ra quyết định hiệu quả",
-      "✔️ Đã triển khai thành công ở thị trường Úc",
-      "✔️ Đã chứng minh được hiệu suất đầu tư đột phá",
+      "🌟 Đón đầu kỷ nguyên đầu tư với AI, Big Data, Machine learning",
+      "🌟 Công cụ đầu tư hữu ích, hỗ trợ nhà đầu tư ra quyết định hiệu quả",
+      "🌟 Đã triển khai thành công ở thị trường Úc",
+      "🌟 Đã chứng minh được hiệu suất đầu tư đột phá",
     ],
     link: "https://shorten.asia/1RDXpYHU",
     guideSteps: [
@@ -37,10 +37,10 @@ const partners = [
     name: "ENTRADE X BY DNSE",
     logo: "images/dnse/logo.png",
     benefits: [
-      "✔️ 20 năm kinh nghiệm trên thị trường chứng khoán",
-      "✔️ Giúp khách hàng nắm bắt thị trường dễ dàng",
-      "✔️ Đem đến trải nghiệm liền mạch cho mua bán, đầu tư tự tin",
-      "✔️ Dễ dàng mở tài khoản",
+      "🌟 20 năm kinh nghiệm trên thị trường chứng khoán",
+      "🌟 Giúp khách hàng nắm bắt thị trường dễ dàng",
+      "🌟 Đem đến trải nghiệm liền mạch cho mua bán, đầu tư tự tin",
+      "🌟 Dễ dàng mở tài khoản",
     ],
     link: "https://shorten.asia/usTqdA82",
     guideSteps: [
@@ -129,3 +129,20 @@ startBtn.onclick = () => {
   window.open(currentPartner.link, "_blank");
   modal.classList.add("hidden");
 };
+
+modal.addEventListener("click", (e) => {
+  if (e.target === modal) {
+    modal.classList.add("hidden");
+  }
+});
+
+const menuToggle = document.querySelector('.menu-toggle');
+const navMenu = document.querySelector('.main-nav ul');
+
+menuToggle.addEventListener('click', () => {
+  navMenu.classList.toggle('show');
+});
+
+document.getElementById("nextStep").classList.add("fade-slide-up");
+document.getElementById("prevStep").classList.add("fade-slide-up");
+

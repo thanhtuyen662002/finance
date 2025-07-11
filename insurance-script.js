@@ -3,11 +3,11 @@ const partners = [
     name: "Bảo hiểm CI Global Care",
     logo: "images/ciglobalcare/logo.svg",
     benefits: [
-      "✔️ Thủ tục bồi thường nhanh, đơn giản, hỗ trợ khách hàng 24/7",
-      "✔️ Không cần khám sức khỏe vẫn tham gia được gói Bệnh Hiểm Nghèo",
-      "✔️ Thiết kế riêng cho bệnh Ung thư, Đau tim, Đột quỵ",
-      "✔️ Dễ dàng sở hữu với gói bảo vệ 1, 5, 10 năm, tái tục đơn giản",
-      "✔️ Phí bảo hiểm hợp lý – phù hợp độ tuổi, giới tính, thu nhập người Việt",
+      "🌟 Thủ tục bồi thường nhanh, đơn giản, hỗ trợ khách hàng 24/7",
+      "🌟 Không cần khám sức khỏe vẫn tham gia được gói Bệnh Hiểm Nghèo",
+      "🌟 Thiết kế riêng cho bệnh Ung thư, Đau tim, Đột quỵ",
+      "🌟 Dễ dàng sở hữu với gói bảo vệ 1, 5, 10 năm, tái tục đơn giản",
+      "🌟 Phí bảo hiểm hợp lý – phù hợp độ tuổi, giới tính, thu nhập người Việt",
     ],
     link: "https://shorten.asia/QUVzyFvT",
     guideSteps: [
@@ -21,11 +21,11 @@ const partners = [
     name: "Bảo hiểm Hùng Vương",
     logo: "images/hungvuong/logo.jpg",
     benefits: [
-      "✔️ Đa dạng từ xe cộ, nhà cửa, sức khỏe, du lịch và tai nạn",
-      "✔️ Bồi thường online 24/24",
-      "✔️ Xử lý hồ sơ bồi thường trong vòng 5 ngày làm việc",
-      "✔️ Khách hàng chỉ cần gửi yêu cầu bồi thường thông qua app BHV",
-      "✔️ Chi phí hợp lý phù hợp với người Việt Nam",
+      "🌟 Đa dạng từ xe cộ, nhà cửa, sức khỏe, du lịch và tai nạn",
+      "🌟 Bồi thường online 24/24",
+      "🌟 Xử lý hồ sơ bồi thường trong vòng 5 ngày làm việc",
+      "🌟 Khách hàng chỉ cần gửi yêu cầu bồi thường thông qua app BHV",
+      "🌟 Chi phí hợp lý phù hợp với người Việt Nam",
     ],
     link: "https://shorten.asia/MyFsSccn",
     guideSteps: [
@@ -39,11 +39,11 @@ const partners = [
     name: "Bảo hiểm Bảo Minh",
     logo: "images/baominh/logo.png",
     benefits: [
-      "✔️ Bảo hiểm đa dạng: ô tô, xe máy, du lịch, nhà ở, tai nạn",
-      "✔️ Mức trách nhiệm lên tới 150.000$",
-      "✔️ Chi trả bảo hiểm 24/24",
-      "✔️ Phạm vi rộng, kèm cứu hộ, sửa chữa, thay thế cao cấp",
-      "✔️ Bảo vệ nhà khỏi hỏa hoạn, thiên tai, trộm cắp, sự cố khác",
+      "🌟 Bảo hiểm đa dạng: ô tô, xe máy, du lịch, nhà ở, tai nạn",
+      "🌟 Mức trách nhiệm lên tới 150.000$",
+      "🌟 Chi trả bảo hiểm 24/24",
+      "🌟 Phạm vi rộng, kèm cứu hộ, sửa chữa, thay thế cao cấp",
+      "🌟 Bảo vệ nhà khỏi hỏa hoạn, thiên tai, trộm cắp, sự cố khác",
     ],
     link: "https://shorten.asia/Mc8p1wtX",
     guideSteps: [
@@ -57,11 +57,11 @@ const partners = [
     name: "Bảo hiểm VBI",
     logo: "images/vbi/logo.png",
     benefits: [
-      "✔️ Chi trả ngay cả khi NDBH bị nhiễm dịch bệnh",
-      "✔️ Thời hạn bảo hiểm ngắn, từ 3 - 6 tháng",
-      "✔️ Hỗ trợ chi phí chữa bệnh nền có sẵn",
-      "✔️ Thời gian chờ ngắn trong vòng 7 ngày",
-      "✔️ Giá sản phẩm thấp - chỉ từ VND 210,000",
+      "🌟 Chi trả ngay cả khi NDBH bị nhiễm dịch bệnh",
+      "🌟 Thời hạn bảo hiểm ngắn, từ 3 - 6 tháng",
+      "🌟 Hỗ trợ chi phí chữa bệnh nền có sẵn",
+      "🌟 Thời gian chờ ngắn trong vòng 7 ngày",
+      "🌟 Giá sản phẩm thấp - chỉ từ VND 210,000",
     ],
     link: "https://shorten.asia/swEqsxep",
     guideSteps: [
@@ -150,3 +150,20 @@ startBtn.onclick = () => {
   window.open(currentPartner.link, "_blank");
   modal.classList.add("hidden");
 };
+
+modal.addEventListener("click", (e) => {
+  if (e.target === modal) {
+    modal.classList.add("hidden");
+  }
+});
+
+const menuToggle = document.querySelector('.menu-toggle');
+const navMenu = document.querySelector('.main-nav ul');
+
+menuToggle.addEventListener('click', () => {
+  navMenu.classList.toggle('show');
+});
+
+document.getElementById("nextStep").classList.add("fade-slide-up");
+document.getElementById("prevStep").classList.add("fade-slide-up");
+
