@@ -168,7 +168,7 @@ const partners = [
         text: "<span>Bước 5:</span> Màn hình như sau là đã <strong>vay thành công</strong>.",
       },
       {
-        img: "images/util/Note.png",
+        img: "images/util/note.png",
         text: "<strong>Lưu ý</strong> <p>1. Khách hàng có địa chỉ thường trú ở miền Nam và các thành phố lớn của miền Bắc.</p><p>2. Khách hàng có thu nhập từ 7.5 - 24tr mỗi tháng trở lên.</p><p>3. Khách hàng có độ tuổi từ 25 - 45 tuổi và đã tốt nghiệp cấp 3.</p>",
       },
     ],
